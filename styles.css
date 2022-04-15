@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+    position: absolute;
+    display: inline-block;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(172, 255, 47, 0.568);
+}
+
+.div1{
+    background-color: rgb(105, 105, 210);
+    margin: 10px;
+    padding: 10px;
+    animation-name: texto1;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.div2{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+@keyframes texto1 {
+    0%{ width: 100%;}
+    50%{ width: 50%;}
+    100%{ width: 100%;}
+}
